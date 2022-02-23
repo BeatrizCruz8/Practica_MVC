@@ -97,7 +97,11 @@
                       <Component id="txtFechaMora" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="464" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Component id="cmdAgregar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="cmdEliminar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="264" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -108,6 +112,8 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblID" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmdAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmdEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -174,7 +180,7 @@
                   <Component id="lblFechaMora" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtFechaMora" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="57" max="32767" attributes="0"/>
+              <EmptySpace pref="54" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -295,6 +301,16 @@
     <Component class="javax.swing.JTextField" name="txtTipoCartera">
     </Component>
     <Component class="javax.swing.JTextField" name="txtFechaMora">
+    </Component>
+    <Component class="javax.swing.JButton" name="cmdAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cmdEliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

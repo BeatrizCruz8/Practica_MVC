@@ -54,6 +54,8 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
         txtNumFactura = new javax.swing.JTextField();
         txtTipoCartera = new javax.swing.JTextField();
         txtFechaMora = new javax.swing.JTextField();
+        cmdAgregar = new javax.swing.JButton();
+        cmdEliminar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -121,6 +123,10 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
             }
         });
 
+        cmdAgregar.setText("Agregar");
+
+        cmdEliminar.setText("Eliminar");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -184,7 +190,11 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                         .addComponent(lblFechaMora)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtFechaMora)))
-                .addContainerGap(464, Short.MAX_VALUE))
+                .addGap(50, 50, 50)
+                .addComponent(cmdAgregar)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(cmdEliminar)
+                .addContainerGap(264, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -192,7 +202,9 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblID)
-                    .addComponent(txtID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmdAgregar)
+                    .addComponent(cmdEliminar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCedula)
@@ -245,7 +257,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblFechaMora)
                     .addComponent(txtFechaMora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(57, Short.MAX_VALUE))
+                .addContainerGap(54, Short.MAX_VALUE))
         );
 
         pack();
@@ -311,6 +323,8 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton cmdAgregar;
+    private javax.swing.JButton cmdEliminar;
     private javax.swing.JLabel lblCedula;
     private javax.swing.JLabel lblCiudad;
     private javax.swing.JLabel lblDepartamento;
