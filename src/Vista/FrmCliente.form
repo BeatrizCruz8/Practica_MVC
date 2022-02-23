@@ -25,40 +25,49 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="txtValorCredito" pref="100" max="32767" attributes="0"/>
-                  <Component id="txtTipoCartera" alignment="0" max="32767" attributes="0"/>
-                  <Component id="txtFechaCredito" alignment="0" max="32767" attributes="0"/>
-                  <Component id="txtNumFactura" alignment="0" max="32767" attributes="0"/>
-                  <Component id="txtTelTrabajo" alignment="0" max="32767" attributes="0"/>
-                  <Component id="txtTelResidencia" alignment="0" max="32767" attributes="0"/>
-                  <Component id="txtEmail" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtDepa" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtCiudad" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtdireccionResi" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtProfesion" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtNombreCom" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtLugarExpe" alignment="0" max="32767" attributes="0"/>
-                  <Component id="TxtCedula" alignment="0" max="32767" attributes="0"/>
-                  <Component id="txtNumCuotas" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="cmdAgregar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cmdEliminar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtValorCredito" pref="100" max="32767" attributes="0"/>
+                          <Component id="txtTipoCartera" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtFechaCredito" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtNumFactura" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtTelTrabajo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtTelResidencia" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtEmail" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtDepa" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtCiudad" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtdireccionResi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtProfesion" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtNombreCom" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtLugarExpe" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtCedula" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtNumCuotas" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
               <EmptySpace pref="450" max="32767" attributes="0"/>
           </Group>
@@ -145,7 +154,12 @@
                   <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtNumCuotas" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="169" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cmdAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmdEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="128" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -276,6 +290,16 @@
     <Component class="javax.swing.JTextField" name="txtValorCredito">
     </Component>
     <Component class="javax.swing.JTextField" name="txtNumCuotas">
+    </Component>
+    <Component class="javax.swing.JButton" name="cmdAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cmdEliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
