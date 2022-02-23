@@ -97,7 +97,7 @@
                       <Component id="txtFechaMora" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="235" max="32767" attributes="0"/>
+              <EmptySpace pref="464" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>

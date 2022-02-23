@@ -184,7 +184,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                         .addComponent(lblFechaMora)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtFechaMora)))
-                .addContainerGap(235, Short.MAX_VALUE))
+                .addContainerGap(464, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
