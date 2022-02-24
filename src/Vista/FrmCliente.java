@@ -100,7 +100,7 @@ public class FrmCliente extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(190, 190, 190)
+                .addGap(100, 100, 100)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(cmdAgregar)
@@ -140,12 +140,12 @@ public class FrmCliente extends javax.swing.JFrame {
                             .addComponent(TxtLugarExpe, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(TxtCedula, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtNumCuotas))))
-                .addContainerGap(450, Short.MAX_VALUE))
+                .addContainerGap(100, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(28, 28, 28)
+                .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(6, 6, 6)
@@ -211,7 +211,7 @@ public class FrmCliente extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cmdAgregar)
                     .addComponent(cmdEliminar))
-                .addContainerGap(128, Short.MAX_VALUE))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
 
         pack();
@@ -260,8 +260,8 @@ public class FrmCliente extends javax.swing.JFrame {
     public javax.swing.JTextField TxtNombreCom;
     public javax.swing.JTextField TxtProfesion;
     public javax.swing.JTextField TxtdireccionResi;
-    private javax.swing.JButton cmdAgregar;
-    private javax.swing.JButton cmdEliminar;
+    public javax.swing.JButton cmdAgregar;
+    public javax.swing.JButton cmdEliminar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -277,13 +277,13 @@ public class FrmCliente extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JTextField txtEmail;
-    private javax.swing.JTextField txtFechaCredito;
-    private javax.swing.JTextField txtNumCuotas;
-    private javax.swing.JTextField txtNumFactura;
-    private javax.swing.JTextField txtTelResidencia;
-    private javax.swing.JTextField txtTelTrabajo;
-    private javax.swing.JTextField txtTipoCartera;
-    private javax.swing.JTextField txtValorCredito;
+    public javax.swing.JTextField txtEmail;
+    public javax.swing.JTextField txtFechaCredito;
+    public javax.swing.JTextField txtNumCuotas;
+    public javax.swing.JTextField txtNumFactura;
+    public javax.swing.JTextField txtTelResidencia;
+    public javax.swing.JTextField txtTelTrabajo;
+    public javax.swing.JTextField txtTipoCartera;
+    public javax.swing.JTextField txtValorCredito;
     // End of variables declaration//GEN-END:variables
 }
