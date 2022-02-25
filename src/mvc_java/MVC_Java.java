@@ -37,6 +37,7 @@ public class MVC_Java {
         objControlClie = new ControladorCliente(cli,objModelo);
         objControlClie.iniciar();
         objControlSegClie = new ControladorSeguimientoCliente(segcli,objModelo);
+        objControlSegClie.iniciar();
         segcli.setVisible(true);
         cli.setVisible(true);
         objVista.setVisible(true);

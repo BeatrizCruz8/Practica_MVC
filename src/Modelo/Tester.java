@@ -15,7 +15,7 @@ public class Tester {
 		ArrayList<String> renglonObtenido = new ArrayList<String>();
 		String leyenda;
                 //insertar
-                leyenda= administradorBD.registrarAlta("tbusuarios", "null, 'Pedro','usuarioMartínez',1234");
+                leyenda= administradorBD.registrarAlta("tbusuarios", "null, 'abel','hecks',2222");
 		System.out.println(leyenda);
                 
                 //modificar
