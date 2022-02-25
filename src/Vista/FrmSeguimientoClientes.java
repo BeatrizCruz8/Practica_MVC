@@ -60,21 +60,21 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         txtFechaMora1 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        TxtValmora = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
+        TxtVseguro = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
+        TxtIntMora = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
+        TxtSaldMora = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jTextField5 = new javax.swing.JTextField();
+        TxtTipoCobro = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
-        jTextField6 = new javax.swing.JTextField();
+        TxtFeAcuerdo = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
-        txtAcuerdoUno = new javax.swing.JTextField();
+        TxtAcuerdouno = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        txtFechaAcuerdoDos = new javax.swing.JTextField();
+        TxtFeacudos = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         txtAcuerdoDos = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
@@ -165,65 +165,65 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
 
         jLabel2.setText("Val Mora");
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        TxtValmora.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                TxtValmoraActionPerformed(evt);
             }
         });
 
         jLabel3.setText("V Seguro");
 
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        TxtVseguro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                TxtVseguroActionPerformed(evt);
             }
         });
 
         jLabel4.setText("Interes Mora");
 
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        TxtIntMora.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
+                TxtIntMoraActionPerformed(evt);
             }
         });
 
         jLabel5.setText("Sald Mora");
 
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+        TxtSaldMora.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField4ActionPerformed(evt);
+                TxtSaldMoraActionPerformed(evt);
             }
         });
 
         jLabel6.setText("Tipo Cobro");
 
-        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+        TxtTipoCobro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField5ActionPerformed(evt);
+                TxtTipoCobroActionPerformed(evt);
             }
         });
 
         jLabel7.setText("Fecha Acuerdo Uno");
 
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+        TxtFeAcuerdo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField6ActionPerformed(evt);
+                TxtFeAcuerdoActionPerformed(evt);
             }
         });
 
         jLabel8.setText("Acuerdo Uno");
 
-        txtAcuerdoUno.addActionListener(new java.awt.event.ActionListener() {
+        TxtAcuerdouno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtAcuerdoUnoActionPerformed(evt);
+                TxtAcuerdounoActionPerformed(evt);
             }
         });
 
         jLabel9.setText("Fecha Acuerdo Dos");
 
-        txtFechaAcuerdoDos.addActionListener(new java.awt.event.ActionListener() {
+        TxtFeacudos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtFechaAcuerdoDosActionPerformed(evt);
+                TxtFeacudosActionPerformed(evt);
             }
         });
 
@@ -292,12 +292,12 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                             .addComponent(jLabel3))
                         .addGap(20, 20, 20)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jTextField6)
-                            .addComponent(jTextField5)
-                            .addComponent(jTextField2)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(TxtIntMora, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(TxtSaldMora, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(TxtFeAcuerdo)
+                            .addComponent(TxtTipoCobro)
+                            .addComponent(TxtVseguro)
+                            .addComponent(TxtValmora, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel8)
@@ -305,8 +305,8 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                             .addComponent(jLabel10))
                         .addGap(21, 21, 21)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtFechaAcuerdoDos)
-                            .addComponent(txtAcuerdoUno)
+                            .addComponent(TxtFeacudos)
+                            .addComponent(TxtAcuerdouno)
                             .addComponent(txtAcuerdoDos, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel14)
@@ -352,7 +352,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(6, 6, 6)
-                                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(TxtTipoCobro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(4, 4, 4))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -360,15 +360,15 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel7)
-                                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(TxtFeAcuerdo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel8)
-                                    .addComponent(txtAcuerdoUno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(TxtAcuerdouno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(6, 6, 6)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel9)
-                                    .addComponent(txtFechaAcuerdoDos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(TxtFeacudos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel10)
@@ -439,19 +439,19 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(TxtValmora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel3)
-                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(TxtVseguro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel4)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(TxtIntMora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel5)
-                            .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(TxtSaldMora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(40, Short.MAX_VALUE))
         );
 
@@ -482,37 +482,37 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtEmailActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void TxtValmoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtValmoraActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_TxtValmoraActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void TxtVseguroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtVseguroActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_TxtVseguroActionPerformed
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void TxtIntMoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtIntMoraActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_TxtIntMoraActionPerformed
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void TxtSaldMoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtSaldMoraActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
+    }//GEN-LAST:event_TxtSaldMoraActionPerformed
 
-    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+    private void TxtTipoCobroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtTipoCobroActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField5ActionPerformed
+    }//GEN-LAST:event_TxtTipoCobroActionPerformed
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+    private void TxtFeAcuerdoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtFeAcuerdoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
+    }//GEN-LAST:event_TxtFeAcuerdoActionPerformed
 
-    private void txtAcuerdoUnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAcuerdoUnoActionPerformed
+    private void TxtAcuerdounoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtAcuerdounoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtAcuerdoUnoActionPerformed
+    }//GEN-LAST:event_TxtAcuerdounoActionPerformed
 
-    private void txtFechaAcuerdoDosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtFechaAcuerdoDosActionPerformed
+    private void TxtFeacudosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtFeacudosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtFechaAcuerdoDosActionPerformed
+    }//GEN-LAST:event_TxtFeacudosActionPerformed
 
     private void cmdAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdAgregarActionPerformed
         // TODO add your handling code here:
@@ -554,6 +554,14 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JTextField TxtAcuerdouno;
+    public javax.swing.JTextField TxtFeAcuerdo;
+    public javax.swing.JTextField TxtFeacudos;
+    public javax.swing.JTextField TxtIntMora;
+    public javax.swing.JTextField TxtSaldMora;
+    public javax.swing.JTextField TxtTipoCobro;
+    public javax.swing.JTextField TxtValmora;
+    public javax.swing.JTextField TxtVseguro;
     public javax.swing.JButton cmdAgregar;
     public javax.swing.JButton cmdEliminar;
     private javax.swing.JLabel jLabel1;
@@ -571,12 +579,6 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JProgressBar jProgressBar1;
-    public javax.swing.JTextField jTextField1;
-    public javax.swing.JTextField jTextField2;
-    public javax.swing.JTextField jTextField3;
-    public javax.swing.JTextField jTextField4;
-    public javax.swing.JTextField jTextField5;
-    public javax.swing.JTextField jTextField6;
     private javax.swing.JLabel lblCedula;
     private javax.swing.JLabel lblCiudad;
     private javax.swing.JLabel lblDepartamento;
@@ -594,14 +596,12 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     public javax.swing.JTextField txtAcuerdoCuatro;
     public javax.swing.JTextField txtAcuerdoDos;
     public javax.swing.JTextField txtAcuerdoTres;
-    public javax.swing.JTextField txtAcuerdoUno;
     public javax.swing.JTextField txtCedula;
     public javax.swing.JTextField txtCiudad;
     public javax.swing.JTextField txtDepartamento;
     public javax.swing.JTextField txtDireccionResidencial;
     public javax.swing.JTextField txtEmail;
     public javax.swing.JTextField txtFechaAcuerdoCuatro;
-    public javax.swing.JTextField txtFechaAcuerdoDos;
     public javax.swing.JTextField txtFechaAcuerdoTres;
     public javax.swing.JTextField txtFechaMora;
     public javax.swing.JTextField txtFechaMora1;
